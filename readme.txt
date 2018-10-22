@@ -1,51 +1,48 @@
-﻿-----------------OPIS------------------
--Mini desktop igrica koja testira logiku i vestinu sklapanja reci.
--Zadatak igraca je da za dato vreme osmisli rec dovoljne duzine za prolaz.
--Potrebna duzina reci se svakim nivoom povecava, tako da igrac kako napreduje
-kroz nivoe mora svaki put da smisli duzu rec od prethodne.
--Igrica ima 6 nivoa:
-	1. nivo = rec od minimum 3 slova
-	2. nivo = rec od minimum 4 slova
-	3. nivo = rec od minimum 5 slova
-	4. nivo = rec od minimum 6 slova
-	5. nivo = rec od minimum 7 slova
-	6. nivo = rec od minimum 8 slova
--Za svaku rec koju igrac sklopi, osvaja $ u zavisnosti od duzine reci
--Igrac moze da trosi $ na produzavanje vremena ukoliko mu je potrebno
+-A mini desktop game that tests the logic and skill of folding words.
+-The player's job is to design a word from given letters within a given time.
+-The required length of the word is increased at each level
+- The game has 6 levels:
+Level 1 = a word of at least 3 letters
+Level 2 = a minimum of 4 letters
+Level 3 = a minimum of 5 letters
+Level 4 = a minimum of 6 letters
+Level 5 = a minimum of 7 letters
+Level 6 = a minimum of 8 letters
+-For every word the player makes, he wins $ depending on the length of the word
+-The player can spend $ on extra time if he needs it
+
+-----------------INSTRUCTION------------------
+-Clicking the letters that are displayed on the screen, the player creates a word
+-There are 4 options available to the player:
+BUTTON |?| - colors the word:
+green -> if it exists in the dictionary
+orange -> if it exists in the dictionary, but it is not long enough
+red -> if the word does not exist in the dictionary
+
+BUTTON |X| - clears the whole word
+
+BUTTON |✔| - confirm
+
+BUTTON |+00:30| - extends the time for 30 seconds
+
+-In each level, the timer is counting 60 seconds (if the player does not extend the time)
 
 
-
------------------UPUTSTVO------------------
--Klikom na slova koja se prikazu na ekranu, slovo po slovo se sklapa rec
--Postoje 4 opcije dostupne igracu:
-	DUGME |?| - boji rec:
-					  zeleno -> ako postoji u recniku
-					  narandzasto -> ako postoji u recniku ali nije dovoljno dugacka za prolaz
-					  crveno -> ako rec ne postoji u recniku
-					  
-	DUGME |X| - brise celu rec
-	
-	DUGME |✔| - potvrdjuje sklopljenu rec
-	
-	DUGME |+00:30| - produzava vreme za 30sekundi, za cenu $
-
--U svakom nivou tajmer otkucava 60 sekundi (ukoliko igrac ne produzi vreme)
+----------------- NOTES ------------------
+-When the user creates a word it is checked in the dictionaries that are in .txt format and are located in the project folder
+-I have found the dictionary in the e-format on the Internet, which means that it's not a complete dictionary, lots of words are missing
+-I divided the dictionary into 12 txt files according to the length of the words, so that not every time, when checking, the app doesn't have to search the entire dictionary with all the words,
+but only with that length of the word the player has made (for example, if the player folds a word of 6 letters, that word is searched in the recnik_6.txt file containing all six words)
+-The app has a preset combinations of the letters so that a sufficiently long word can be made at each level
+-Letters combinations are random each time, there are currently only 20 combinations
+-I did not pay much attention to conventions for naming variables, methods, classes, etc., it was made for a student project
+-GUI is made with Tkinter
 
 
------------------NAPOMENE------------------
--Rec koju igrac sklopi proverava se u recnicima koji su u .txt formatu i nalaze se u folderu projekta
--Recnik u elektronskom formatu sam nasao na internetu, sto podrazumeva da dosta reci fali
--Recnik sam u c# podelio na 12 txt fajlova prema duzini reci,kako ne bi svaki put pri proveri reci pretrazivao ceo recnik sa svim recima,
-vec samo sa onom duzinom reci koju je igrac sklopio (npr ako igrac sklopi rec od 6 slova,ta rec se pretrazuje u recnik_6.txt fajlu koji sadrzi sve reci sa 6 slova)
--Kombinacije slova sam zadao sam kako bi u svakom nivou moglo da se sklopi dovoljno dugacka rec
--Kombinacije slova idu random svaki put, trenutno ih ima 20 
--Nisam puno obracao paznju na konvencije imenovanja promenljivih,metoda,klasa itd
--GUI je napravljen preko Tkinter-a
+----------------- LANGUAGE ------------------
+-Serbian
 
-
-
------------------CREDITS------------------
-Goran Rakic, za recnik u elektronskom formatu koji sam iskoristio
+----------------- CREDITS ------------------
+Goran Rakic, for the e-dictionary that I used
 https://github.com/grakic/hunspell-sr/blob/master/sr-Latn.dic
-
 

@@ -31,8 +31,8 @@ BUTTON |+00:30| - extends the time for 30 seconds
 ----------------- NOTES ------------------
 -When the user creates a word it is checked in the dictionaries that are in .txt format and are located in the project folder
 -I have found the dictionary in the e-format on the Internet, which means that it's not a complete dictionary, lots of words are missing
--I divided the dictionary into 12 txt files according to the length of the words, so that not every time, when checking, the app doesn't have to search the entire dictionary with all the words,
-but only with that length of the word the player has made (for example, if the player folds a word of 6 letters, that word is searched in the recnik_6.txt file containing all six words)
+-I divided the dictionary into 12 txt files according to the length of the words, so that every time, when checking, the app doesn't have to search the entire dictionary with all the words,
+but only with that length of the word the player has made (for example, if the player folds a word of 6 letters, that word is searched in the recnik_6.txt file)
 -The app has a preset combinations of the letters so that a sufficiently long word can be made at each level
 -Letters combinations are random each time, there are currently only 20 combinations
 -I did not pay much attention to conventions for naming variables, methods, classes, etc., it was made for a student project

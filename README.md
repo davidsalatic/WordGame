@@ -15,7 +15,7 @@ Level 6 = a minimum of 8 letters
 -For every word the player makes, he wins $ depending on the length of the word
 -The player can spend $ on extra time if he needs it
 
------------------INSTRUCTION------------------
+-----------------INSTRUCTION------------------<br/>
 -Clicking the letters that are displayed on the screen, the player creates a word
 -There are 4 options available to the player:
 BUTTON |?| - colors the word:
@@ -32,7 +32,7 @@ BUTTON |+00:30| - extends the time for 30 seconds
 -In each level, the timer is counting 60 seconds (if the player does not extend the time)
 
 
------------------ NOTES ------------------
+----------------- NOTES ------------------</br>
 -When the user creates a word it is checked in the dictionaries that are in .txt format and are located in the project folder
 -I have found the dictionary in the e-format on the Internet, which means that it's not a complete dictionary, lots of words are missing
 -I divided the dictionary into 12 txt files according to the length of the words, so that every time, when checking, the app doesn't have to search the entire dictionary with all the words,
@@ -43,9 +43,9 @@ but only with that length of the word the player has made (for example, if the p
 -GUI is made with Tkinter
 
 
------------------ LANGUAGE ------------------
+----------------- LANGUAGE ------------------</br>
 -Serbian
 
------------------ CREDITS ------------------
+----------------- CREDITS ------------------</br>
 Goran Rakic, for the e-dictionary that I used
 https://github.com/grakic/hunspell-sr/blob/master/sr-Latn.dic

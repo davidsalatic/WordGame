@@ -1,4 +1,6 @@
-Demo:
+# WordGame
+
+## Demo:
 <br />
 ![](demo.gif)
 <br/>

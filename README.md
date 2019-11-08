@@ -1,7 +1,6 @@
 # WordGame
 
 ## Demo:
-<br />
 ![](demo.gif)
 <br/>
 A mini desktop game that tests the logic and skill of folding words.

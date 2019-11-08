@@ -47,6 +47,6 @@ but only with that length of the word the player has made (for example, if the p
 ### Language
 - Serbian
 
-### Credis ------------------</br>
-@grakic Goran Rakic, for the e-dictionary that I used
+### Credis
+- @grakic Goran Rakic, for the e-dictionary that I used
 https://github.com/grakic/hunspell-sr/blob/master/sr-Latn.dic

@@ -1,8 +1,4 @@
 # WordGame
-
-## Demo:
-![](demo.gif)
-<br/>
 ## **_A mini desktop game that tests the logic and skill of folding words._**
 - The player's job is to design a word from given letters within a given time.
 - The required length of the word is increased at each level
@@ -50,3 +46,6 @@ but only with that length of the word the player has made (for example, if the p
 ### Credis
 - @grakic Goran Rakic, for the e-dictionary that I used
 https://github.com/grakic/hunspell-sr/blob/master/sr-Latn.dic
+
+## Demo:
+![](demo.gif)

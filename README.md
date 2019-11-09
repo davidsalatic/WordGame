@@ -1,5 +1,5 @@
 # WordGame
-## **_A mini desktop game that tests the logic and skill of folding words._**
+## **_A mini desktop game that tests the logic and skill of folding words_**
 - The player's job is to design a word from given letters within a given time.
 - The required length of the word is increased at each level
 - The game has 6 levels:

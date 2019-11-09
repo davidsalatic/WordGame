@@ -11,7 +11,8 @@ Level 5 = a minimum of 7 letters
 Level 6 = a minimum of 8 letters
 - For every word the player makes, he wins $ depending on the length of the word
 - The player can spend $ on extra time if he needs it
-
+## Demo:
+![](demo.gif)
 ### Instructions
 -Clicking the letters that are displayed on the screen, the player creates a word<br/>
 -There are 4 options available to the player:<br/>
@@ -47,5 +48,4 @@ but only with that length of the word the player has made (for example, if the p
 - @grakic Goran Rakic, for the e-dictionary that I used
 https://github.com/grakic/hunspell-sr/blob/master/sr-Latn.dic
 
-## Demo:
-![](demo.gif)
+
